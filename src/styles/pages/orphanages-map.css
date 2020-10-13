@@ -73,3 +73,33 @@
     background: #17e6eb;
 
 }
+
+.change-mode {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+
+    z-index: 7;
+    
+}
+
+.change-mode button {
+    
+    display:flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;    
+}
+
+.change-mode button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.change-mode img {
+    margin: 2px;
+    width: 36px;
+    height: 36px;
+}
