@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "leaflet-react": "^3.0.5",
     "react-leaflet": "^2.7.0"
   }
 }
